@@ -1,0 +1,100 @@
+.main {
+  background: #FFF;
+  padding: 30px;
+  margin: 50px auto;
+  max-width: 500px;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.main h1 {
+  color: #000;
+  text-align: center;
+}
+
+.main .form {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form input[type='text'] {
+  height: 40px;
+  padding: 0 20px;
+  font-size: 18px;
+  border: 1px solid #CCC;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.form button[type='submit'] {
+  border: none;
+  height: 40px;
+  width: 40px;
+  background-color: #f04c64;
+  color: #FFF;
+}
+
+.form button[type='submit']:focus {
+  border-radius: 0;
+}
+
+.form button[type='submit']:hover {
+  cursor: pointer;
+}
+
+.tasks {
+  margin-top: 20px;
+}
+
+.tasks li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  color: #000;
+  font-size: 18px;
+  padding: 5px 5px;
+}
+
+.tasks li:hover {
+  background-color: #51c5de;
+  border-radius: 4px;
+  transition: all 600ms;
+}
+
+.tasks .btn-container {
+  display: flex;
+  gap: 5px;
+}
+
+.tasks button {
+  display: flex;
+  border: none;
+  font-size: 20px;
+  background-color: transparent;
+}
+
+.tasks button:hover {
+  cursor: pointer;
+}
+
+.tasks .red {
+  color: #f04c64
+}
+
+.tasks li:hover .red {
+  color: #000;
+  transition: all 600ms;
+}
+
+.tasks .blue {
+  color: #51c5de
+}
+
+.tasks li:hover .blue {
+  color: #000;
+  transition: all 600ms;
+}
